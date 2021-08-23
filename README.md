@@ -1,5 +1,6 @@
 #complie:
 setting.xml
+```
   <profiles>
 	<profile>
 		<id>protobuf</id>
@@ -12,10 +13,11 @@ setting.xml
   <activeProfiles>
     <activeProfile>protobuf</activeProfile>
   </activeProfiles>
-  
+```
 mvn:
+```
 mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U apache-rat:check -Drat.numUnapprovedLicenses=600
-
+```
 
 <img src="doc/Nacos_Logo.png" width="50%" syt height="50%" />
 
